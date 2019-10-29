@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Cabin|Dosis:400,700');
+
+/*--MEDIA QUERIES--*/
+@media (max-width: 800px){
+  /*--phone screen specific adaptations--*/
+  #navbar{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/*--IDs--*/
+#overall-container{
+  width:100%;
+  margin: 1px;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 6fr;
+}
+
+#navbar{
+  grid-start-row: 1;
+  grid-end-row: 2;
+  position: fixed;
+  left: 2px;
+  top: 0px;
+  border: 2px solid grey;
+  width: auto;
+  max-height: 100%;
+  margin: 0;
+  background-color: rgba(27, 145, 209, 1);
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+
+#main-doc{
+  padding-left: 40px;
+}
+
+/*--CLASSES--*/
+.blue-bg-1{
+  background-color: rgba(27, 145, 209, 1);
+}
+
+.main-heading{
+  text-align: center;
+  color: white;
+  font-family: "Russo One";
+	filter: drop-shadow(0.05em 0.05em 1px black);
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-heading-byline{
+  text-align: center;
+  color: white;
+  font-family: "Cabin", medium;
+	filter: drop-shadow(0.05em 0.05em 1px black);
+}
+
+.main-body{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+  font-family: "Dosis", regular;
+  background-color: rgba(100,100,100, 0.1);
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  border-left: 1px dotted grey;
+  border-right: 2px solid black;
+  overflow-wrap: break-word;
+  position: relative;
+  top: -8px;
+  left: 2px;
+}
+
+.main-section{
+  width:100%
+}
+.nav-link{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  filter: drop-shadow(1px 1px 1px black);
+  font-family: "Dosis", bold;
+  margin-top: 2em;
+  padding: 2em;
+  border-top: 1px solid grey;
+  cursor: pointer;
+}
+
+/*--ELEMENTS--*/
+footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+code{
+  background-color: rgba(100,100,100, 0.2);
+}
+ol{
+  background-color: white;
+  width: 30%;
+}
