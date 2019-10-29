@@ -1,0 +1,115 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="overall-container">
+  <nav id="navbar">
+    <header class="blue-bg-1">
+      <h1 class="main-heading">PRAKTICA MTL 50</h1>
+      <h2 class="main-heading-byline">Instructions for use</h2>
+    </header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Parts_of_the_PRAKTICA_MTL_50">Parts of the PRAKTICA MTL 50</a>
+    <a class="nav-link" href="#Inserting_the_battery">Inserting the battery</a>
+    <a class="nav-link" href="#Opening_the_camera_back">Opening the camera back</a>
+    <a class="nav-link" href="#Loading_the_film">Loading the film</a>
+    <a class="nav-link" href="#Closing_the_camera_back">Closing the camera back</a>
+  </nav>
+<div class="main-body">
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>
+        <h3>Introduction</h3>
+      </header>
+      <p>
+        You are the owner of a PRAKTICA MTL 50. We congratulate you on your choice and wish you much success with this top-quality reflex camera.
+      </p>
+      <p>
+        A remarkable feature of this camera is its through-the-lens light metering system: Two red LEDs indicate the correct shutter speed and provide unambiguous information under all lighting conditions.
+      </p>
+      <p>
+        The rugged metal-blade focal-plane shutter, automatic film loading, large bright viewfinder image and the wide range of accessories and interchangeable lenses are a sound basis of creative photography.
+      </p>
+    </section>
+    
+    <section class="main-section" id="Parts_of_the_PRAKTICA_MTL_50">
+      <header>
+        <h3>Parts of the PRAKTICA MTL 50</h3>
+      </header>
+              <p>
+        <ol>
+          <li> Shutter speed dial</li>
+          <li> Metering Key</li>
+          <li> Shutter release with cable release connection</li>
+          <li> Cocking lever of self-timer</li>
+          <li> Self-timer release</li>
+          <li> Rewind knob with crank</li>
+          <li> Hot shoe with centre contact</li>
+          <li> Shutter speed mark</li>
+          <li> Cocking lever</li>
+          <li> Frame Counter</li>
+          <li> Film speed mark</li>
+          <li> Film speed scales</li>
+          <li> Diaphragm operation selector</li>
+          <li> Aperture setting ring</li>
+          <li> Depth-of-field scale</li>
+          <li> Focusing Ring</li>
+          <li> Rewind catch</li>
+          <li> Cartridge chamber</li>
+          <li> Metal-blade focal-plane shutter</li>
+          <li> Film sprocket</li>
+          <li> Support</li>
+          <li> Take-up spool</li>
+          <li> Film loading mark</li>
+          <li> Wire brackets</li>
+          <li> Eyepiece with accessory adapter</li>
+          <li> Rewind release</li>
+          <li> Battery compartment lid</li>
+          <li> Tripod thread</li>
+        </ol>
+        </p>
+    </section>
+    
+    <section class="main-section" id="Inserting_the_battery">
+      <header>
+        <h3>Inserting the battery</h3>
+      </header>
+      <p>
+        Open the battery compartment by lifting the lid <code>(27)</code>. Insert the <code>6 V</code> battery [e.g. <code>Mallory PX 28</code> or <code>4 X LR 44</code> or <code>SR 44</code> in battery sleeve <code>(961 363)</code>] according to the plus and minus polarities. Close the battery compartment by replacing the lid.
+      </p>
+      <p>
+        Replace the battery when the LEDs are too dark to allow exact setting.
+      </p>
+    </section>
+    
+    <section class="main-section" id="Opening_the_camera_back">
+      <header>
+        <h3>Opening the camera back</h3>
+      </header>
+      <p>
+        Pull the rewind button <code>(6)</code> all the way up. This unlocks the camera back, which can then be opened. At the same time the frame counter <code>(10)</code> is automatically returned to zero.
+      </p>
+    </section>
+    
+    <section class="main-section" id="Loading_the_film">
+      <header>
+        <h3>Loading the film</h3>
+      </header>
+      <p>
+        Insert the cartridge, ensuring that the wire brackets <code>(24)</code> are not standing upwards. Correct using the knurled disc if necessary. Pull the start of the film to the green mark and pass it under the support so that the teeth of the film sprocket <code>(20)</code> engage in the perforations. Should the film be heavily warped, put a wire bracket on it by rotating the knurled disc. Push the rewind button <code>(6)</code> back in, turning it a little if necessary.
+      </p>
+    </section>
+    
+   <section class="main-section" id="Closing_the_camera_back">
+     <header>
+       <h3>Closing the camera back</h3>
+     </header>
+     <p>
+       The back locks automatically when you press it against the camera body on the latch side.
+     </p>
+   </section>
+  </main><hr>
+  <footer>
+    This is an extract of the instruction manual of the PRAKTICA MTL 50 film camera made by Pentacon. It is made purely for educational purposes. <br>
+    <strong>Techincal Documentation</strong> project made by Akshay Anand for FreeCodeCamp Responsive Web Design Projects.
+    <br> <strong><em>.</em></strong>
+  </footer>
+</div>
+</div>
